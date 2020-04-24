@@ -1,0 +1,14 @@
+server:
+  port: 7777
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5555/eureka/
+spring:
+  application:
+    name: clientserver
+
+info:
+  app.name: clientserver
+  company.name: www.show.com
